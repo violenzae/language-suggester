@@ -27,6 +27,9 @@ $(document).ready(function() {
     } else if(pokemon === 'charmander' & god === 'yes' || ears === 'attached' && age <= 13) {
       $("#results").show();
       $("#c").show();
+    } else {
+      $("#results").show();
+      $("#java").show();
     }
 
 
@@ -36,7 +39,8 @@ $(document).ready(function() {
     }
 
     if (drink === 'yes') {
-      $("#results").append(";) how u doin'");
+      $("#results").append(";) how u doin'. call me");
+      $("#heart").append('<img src="img/heart.gif">');
     }
     
  
