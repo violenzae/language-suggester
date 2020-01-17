@@ -10,4 +10,10 @@ body {
 
 #results h1 {
 color: wheat;
+text-align: center;
+}
+
+.panel {
+  width: 80%;
+  margin: auto;
 }
