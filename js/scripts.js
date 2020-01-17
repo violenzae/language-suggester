@@ -22,6 +22,8 @@ $(document).ready(function() {
     $("#ruby").hide();
     $("#c").hide();
     $("#java").hide();
+    $("#results").hide();
+    $("#heart").empty();
 
     if (age >= 50 || war === 'what') {
       $("#results").show();
@@ -44,7 +46,7 @@ $(document).ready(function() {
     }
 
     if (drink === 'yes') {
-      $("#results").append(";) how u doin'. call me");
+      $("#sup").text(";) how u doin'. call me");
       $("#heart").append('<img src="img/heart.gif">');
     }
     
