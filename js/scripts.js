@@ -18,10 +18,13 @@ $(document).ready(function() {
     var drink = $("#drink").val();
     console.log(drink)
 
-    var quote = (100 - age) * 3;
-
-    $("#rate").empty().append(quote);
-    $("#quote").show();
+    if (age >= 50 || war === 'what') {
+      $("#results").show();
+      $("#python").show().replace;
+    }
+    
+ 
+ 
 
     event.preventDefault();
   });

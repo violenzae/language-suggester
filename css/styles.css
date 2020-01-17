@@ -53,3 +53,19 @@ text-align: center;
 #buttonfont {
   font-size: 40px;
 }
+
+#results {
+  display: none;
+}
+
+#python {
+  display: none;
+}
+
+#ruby {
+  display: none;
+}
+
+#c {
+  display: none;
+}
