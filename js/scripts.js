@@ -22,7 +22,7 @@ $(document).ready(function() {
     $("#ruby").hide();
     $("#c").hide();
     $("#java").hide();
-    $("#results").hide();
+    $("#sup").empty();
     $("#heart").empty();
 
     if (age >= 50 || war === 'what') {
@@ -39,8 +39,10 @@ $(document).ready(function() {
       $("#java").show();
     }
 
+    if(isNaN(age)) {
+      alert("Please enter an age to continue.");
+    }
 
-    
     if (god === "blood") {
       alert("1-877-726-4727 -Get general information on mental health and locate treatment services in your area. Speak to a live person, Monday through Friday from 8 a.m. to 8 p.m. EST.");
     }
