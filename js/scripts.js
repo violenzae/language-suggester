@@ -18,10 +18,15 @@ $(document).ready(function() {
     var drink = $("#drink").val();
     console.log(drink)
 
+    $("#python").hide();
+    $("#ruby").hide();
+    $("#c").hide();
+    $("#java").hide();
+
     if (age >= 50 || war === 'what') {
       $("#results").show();
       $("#python").show();
-    } else if(pokemon === 'squirtle' && ear === 'detached' || pokemon === 'bulbasaur' && god === 'no') {
+    } else if(pokemon === 'squirtle' && ears === 'detached' || pokemon === 'bulbasaur' && god === 'no') {
       $("#results").show();
       $("#ruby").show();
     } else if(pokemon === 'charmander' & god === 'yes' || ears === 'attached' && age <= 13) {
