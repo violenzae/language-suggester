@@ -17,3 +17,22 @@ text-align: center;
   width: 80%;
   margin: auto;
 }
+
+.panel p {
+  padding: 15px;
+  margin: 15px;
+}
+
+.radio {
+  margin-left: 20px;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  margin: 40px;
+}
+
+#buttonfont {
+  font-size: 40px;
+}
