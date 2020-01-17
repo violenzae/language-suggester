@@ -20,7 +20,23 @@ $(document).ready(function() {
 
     if (age >= 50 || war === 'what') {
       $("#results").show();
-      $("#python").show().replace;
+      $("#python").show();
+    } else if(pokemon === 'squirtle' && ear === 'detached' || pokemon === 'bulbasaur' && god === 'no') {
+      $("#results").show();
+      $("#ruby").show();
+    } else if(pokemon === 'charmander' & god === 'yes' || ears === 'attached' && age <= 13) {
+      $("#results").show();
+      $("#c").show();
+    }
+
+
+    
+    if (god === "blood") {
+      alert("1-877-726-4727 -Get general information on mental health and locate treatment services in your area. Speak to a live person, Monday through Friday from 8 a.m. to 8 p.m. EST.");
+    }
+
+    if (drink === 'yes') {
+      $("#results").append(";) how u doin'");
     }
     
  

@@ -12,17 +12,15 @@ body {
 
 #results {
   text-align: center;
-  padding: 50px;
-}
-
-#results h1 {
-color: wheat;
-text-align: center;
+  padding: 25px;
+  display: none;
+  color: wheat;
 }
 
 .panel {
   width: 80%;
-  margin: auto;;
+  margin: auto;
+  margin-bottom: 50px;
 }
 
 .panel p {
@@ -54,8 +52,8 @@ text-align: center;
   font-size: 40px;
 }
 
-#results {
-  display: none;
+.panelbody2 {
+  text-align: center;
 }
 
 #python {
