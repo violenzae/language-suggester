@@ -3,10 +3,16 @@
   color: wheat;
   background-color: rgb(211, 16, 16);
   margin-bottom: -40px;
+  text-align: center;
 }
 
 body {
   background-color: rgb(211, 16, 16);
+}
+
+#results {
+  text-align: center;
+  padding: 50px;
 }
 
 #results h1 {
