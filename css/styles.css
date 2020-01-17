@@ -7,3 +7,7 @@
 body {
   background-color: rgb(211, 16, 16);
 }
+
+#results h1 {
+color: wheat;
+}
