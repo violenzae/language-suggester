@@ -2,6 +2,7 @@
   font-family: 'Times New Roman', Times, serif;
   color: wheat;
   background-color: rgb(211, 16, 16);
+  margin-bottom: -40px;
 }
 
 body {
@@ -15,7 +16,7 @@ text-align: center;
 
 .panel {
   width: 80%;
-  margin: auto;
+  margin: auto;;
 }
 
 .panel p {
@@ -31,6 +32,16 @@ text-align: center;
   display: block;
   text-align: center;
   margin: 40px;
+}
+
+#logo {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+.jumbotron img {
+  width: 50%;
 }
 
 #buttonfont {
