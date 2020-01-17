@@ -10,12 +10,23 @@
   <body class="container">
     <div class="jumbotron">
     <h1>Programming Language Prognosticator</h1>
-    <p>The <em>Prognosticator</em> will analyze you and choose the language best suited to you, saving you time and brain cells.</p>
+    <p>The <em>Prognosticator</em> will analyze you and choose the language best suited to you, saving both time and brain cells.</p>
     </div>
     <div class="panel panel-danger">
       <div class="panelbody">
         <h2>Questions</h2>
-        Are your earlobes attached or detached?<br>
+        <form id="questions">
+          <p><label for="age">How old are you?</label>
+          <input id="age" type="text"></p>
+          <p><label for="ears">Are your earlobes attached or detached?</label>
+          <select id="ears">
+            <option value="attached">attached</option>
+            <option value="detached">detached</option>
+          </select></p>
+  
+          <button type="submit" class="btn btn-danger"><strong>PROGNOSTICATE</strong></button>
+        </form>
+        <br>
         In a certain light, wouldn't nuclear war be exciting?<br>
         Which is your favorite starter Pokemon?<br>
         Is there a God?<br>
